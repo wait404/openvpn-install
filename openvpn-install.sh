@@ -2,7 +2,7 @@
 #
 # This script was forked from https://github.com/Nyr/openvpn-install
 #
-#https://github.com/wait404/openvpn-install
+# https://github.com/wait404/openvpn-install
 #
 # Copyright (c) 2013 Nyr. Released under the MIT License.
 
