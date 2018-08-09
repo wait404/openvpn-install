@@ -97,7 +97,7 @@ then
                     continue
                 elif tail -n +2 /etc/openvpn/easy-rsa/pki/index.txt | cut -d = -f 2 | grep "^$CLIENT$" &>/dev/null
                 then
-                    echo "The client name has been exist,please retry"
+                    echo "The client name has been existed,please retry"
                     continue
                 else
                     break
