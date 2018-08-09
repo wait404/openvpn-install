@@ -1,6 +1,6 @@
 #!/bin/bash
 #
-# This script was forked from https://github.com/Nyr/openvpn-install
+# This script is forked from https://github.com/Nyr/openvpn-install
 #
 # https://github.com/wait404/openvpn-install
 #
@@ -112,7 +112,7 @@ then
             exit
             ;;
         2)
-            NUMBEROFCLIENTS=$(tail -n +2 /etc/openvpn/easy-rsa/pki/index.txt | grep -c "^V")
+            NUMBEROFCLIENTS=`tail -n +2 /etc/openvpn/easy-rsa/pki/index.txt | grep -c "^V"`
             if [[ "$NUMBEROFCLIENTS" -eq 0 ]]
             then
                 echo
